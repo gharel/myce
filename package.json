@@ -109,5 +109,9 @@
 			"path": "./node_modules/cz-conventional-changelog"
 		}
 	},
-	"snyk": true
+	"snyk": true,
+	"overrides": {
+		"@types/babel__core": "7.1.7",
+		"@types/babel__traverse": "7.0.10"
+	}
 }
